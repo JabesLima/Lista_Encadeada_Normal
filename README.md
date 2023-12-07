@@ -17,9 +17,9 @@ O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
 ### Métodos
 
 - *append(elem):* Adiciona um número à lista.
-- *see_list(position?):* Sem parametro retorna todos os dados e com ele retorna o dado na posição especificada.
+- *see_list(position?):* Retorna a lista conpleta.
 - *getitem(index):* ver o indice na posição da lista.
-- *remove(position?):* Ele remove na posição especificada.
-- *insert(...):* (Inserir descrição)
-- *setitem(index, elem):* substitui um elemento na posição desejada.
+- *remove(position?):* Ele remove na posição especificada do usuario.
+- *insert(...):* inserir indice na posição que o usuario escolher.
+- *setitem(index, elem):* substitui um elemento por outro elemento na posição desejada.
 - *len():* Retorna o tamanho da lista.
