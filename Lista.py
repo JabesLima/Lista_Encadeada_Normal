@@ -62,6 +62,7 @@ class Linked_list:
 
     def remove(self, elem):
         # Remover indice na lista
+        self._size -= 1
         if self.header == None:
             raise ValueError("A lista se encontra vazia!")
         elif self.header.data == elem:
