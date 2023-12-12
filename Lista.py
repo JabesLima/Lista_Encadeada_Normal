@@ -106,3 +106,38 @@ print(lista.see_list())
 print(len(lista))
 # ver o elemento pela posição
 print(lista.__getitem__(1))
+
+
+
+# Testes Unitarios.
+
+lista = Linked_list()
+
+def test_ny_fuction_append():
+    lista.append(22)
+    assert len(lista) == 1
+
+def test_my_fuction_getitem():
+    assert lista.__getitem__(0) == 22
+
+def test_my_fuction_setitem():
+    lista.__setitem__(0, 10)
+    assert lista.__getitem__(0) == 10
+
+def test_my_fuction_insert():
+    lista.insert(1, 20)
+    assert lista.__getitem__(1) == 20
+
+def test_my_fuction_remove():
+    lista.remove(20)
+    lista.remove(10)
+    assert len(lista) == 0
+
+def test_my_fuction_see_list():
+    lista.append(190)
+    lista.append(30)
+    lista.append(50)
+    lista.append(25)
+    print(lista.see_list())
+    assert len(lista) == 4
+
