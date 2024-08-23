@@ -11,6 +11,7 @@ O objetivo principal deste projeto é praticar conceitos de estrutura de dados.
 ## Tecnologias usadas no projeto
 
 - Python
+- JavaScript
 
 ## Funcionalidades
 
